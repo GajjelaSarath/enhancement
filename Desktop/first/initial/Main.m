@@ -56,4 +56,5 @@ figure,imshowpair(img,im_out,'montage');
 title('input mage                                                             output image')
 d=gampdf(gamma,1);
 figure,plot(d);
+compareimg(img,HSV);
 compareimq(img,im_out);
