@@ -4,7 +4,8 @@ clc;
 [f,p]=uigetfile('.jpg');
 I=strcat(p,f);
 img=imread(I);
-
+figure,
+imshow(img);
 title('Input Image','color','Red');
 [r,c,~] = size(img);
 i=img;
